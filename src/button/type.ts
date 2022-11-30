@@ -1,5 +1,7 @@
+import { CSSProperties } from 'react';
 import { SizeNum } from '../common';
 export interface ButtonTypes {
+  style?: CSSProperties;
   /**
    * 禁用状态
    */
@@ -18,4 +20,8 @@ export interface ButtonTypes {
    * 跳转地址
    */
   href?: string;
+  /**
+   * 按钮类型
+   */
+  type?: string;
 }

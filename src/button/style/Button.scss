@@ -5,15 +5,61 @@
   color: #fff;
   border: 1px solid transparent;
   background-color: $common-color;
-}
-.xi-button-size-large {
-  height: 36px;
-}
+  text-align: center;
+  cursor: pointer;
+  &:active {
+  background-color: $common-dark-color;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
 
-.xi-button-size-normal {
-  height: 32px;
-}
+  &-disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
-.xi-button-size-small {
-  height: 28px;
+  &-shape {
+    &-square {
+      width: 32px;
+      height: 32px;
+      padding: 0;
+    }
+    &-circle {
+      width: 32px;
+      height: 32px;
+      padding: 0;
+      border-radius: 50%;
+    }
+    &-round {
+      border-radius: 50%;
+    }
+  }
+
+  &-size {
+    &-small {
+      height: 28px;
+    }
+
+    &-normal {
+      height: 32px;
+    }
+
+    &-large {
+      height: 36px;
+    }
+  }
+
+  &-type {
+    &-secondary {
+      color: $second-text-color;
+      background-color: $second-color;
+    }
+
+    &-outline {
+      color: $second-text-color;
+      background-color: $second-color;
+      border: 1px dashed $second-text-color;
+    }
+  }
 }

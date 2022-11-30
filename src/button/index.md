@@ -1,16 +1,18 @@
-# Button
+---
+title: Button
+nav:
+  title: Component
+  path: /common
+group:
+  title: Common
+mobile: false
+---
 
-This is an example component.
+不同类型的按钮
+<code src='./demo/demo3.tsx'></code>
 
-```jsx
-import { Button } from 'xidesign';
+不同大小的按钮
+<code src='./demo/demo1.tsx'></code>
 
-export default () => (
-  <>
-    <Button size="small" style={{ color: 'red' }} />
-    <Button size="normal" />
-    <Button size="large" />
-    <Button size="large" />
-  </>
-);
-```
+不同形状的按钮
+<code src='./demo/demo2.tsx'></code>

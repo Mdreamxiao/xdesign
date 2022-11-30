@@ -1,7 +1,7 @@
 ---
 hero:
   title: library
-  description: xdesign
+  description: xidesign
   actions:
     - text: Hello
       link: /
@@ -19,4 +19,4 @@ features:
     description: Put ! description here
 ---
 
-xdesign
+xidesign

@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "xdesign": ["src"],
-      "xdesign/*": ["src/*", "*"]
+      "xidesign": ["src"],
+      "xidesign/*": ["src/*", "*"]
     }
   }
 }

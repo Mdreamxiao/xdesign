@@ -1,9 +1,9 @@
-# xdesign
+# xidesign
 
-[![NPM version](https://img.shields.io/npm/v/xdesign.svg?style=flat)](https://npmjs.org/package/xdesign)
-[![NPM downloads](http://img.shields.io/npm/dm/xdesign.svg?style=flat)](https://npmjs.org/package/xdesign)
+[![NPM version](https://img.shields.io/npm/v/xidesign.svg?style=flat)](https://npmjs.org/package/xidesign)
+[![NPM downloads](http://img.shields.io/npm/dm/xidesign.svg?style=flat)](https://npmjs.org/package/xidesign)
 
-xdesign
+xidesign
 
 ## Usage
 
