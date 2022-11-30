@@ -1,0 +1,19 @@
+@import '../../style/common.scss';
+
+.xi-button {
+  padding: 0 15px;
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: $common-color;
+}
+.xi-button-size-large {
+  height: 36px;
+}
+
+.xi-button-size-normal {
+  height: 32px;
+}
+
+.xi-button-size-small {
+  height: 28px;
+}

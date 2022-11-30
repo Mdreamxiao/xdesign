@@ -1,0 +1,29 @@
+import classnames from 'classnames';
+import React from 'react';
+import { classPrefix } from '../global.config';
+import './style/Button.scss';
+import { ButtonTypes } from './type';
+
+const Button = (props: ButtonTypes) => {
+  const { size = 'normal', disabled, shape } = props;
+
+  const className = classnames(
+    'a',
+    [
+      `${classPrefix}-button`,
+      `${classPrefix}-button-theme`,
+      `${classPrefix}-button-size-${size}`,
+    ],
+    {
+      [`${classPrefix}-button-shape-${shape}`]: shape !== 'rectangle',
+    },
+  );
+
+  return (
+    <button type="button" className={className} disabled={disabled}>
+      确定
+    </button>
+  );
+};
+
+export default Button;
