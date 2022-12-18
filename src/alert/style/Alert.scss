@@ -1,0 +1,63 @@
+@import '../../style/common.scss';
+
+.xi-alert {
+  display: flex;
+  align-items: baseline;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 22px;
+  word-break: break-all;
+  color: $text-color-1;
+  &-type {
+    &-info {
+      background-color: $info-light-1;
+      .xi-alert-icon {
+        color: $info-light-2;
+      }
+    }
+    &-success {
+      background-color: $success-light-1;
+      .xi-alert-icon {
+        color: $success-light-2;
+      }
+    }
+    &-error {
+      background-color: $danger-light-1;
+      .xi-alert-icon {
+        color: $danger-light-2;
+      }
+    }
+    &-warning {
+      background-color: $warning-light-1;
+
+      .xi-alert-icon {
+        color: $warning-light-2;
+      }
+    }
+  }
+
+  &-content {
+    flex: 1;
+  }
+
+  &-icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+
+    &-close {
+      width: 20px;
+      font-size: 12px;
+      margin-right: 5px;
+    }
+  }
+
+  .title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2px;
+  }
+}
